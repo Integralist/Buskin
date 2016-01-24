@@ -4,6 +4,16 @@
 
 This is a 'bootstrap' script of sorts, built as a executable binary using [Go](https://golang.org/) instead of your traditional Bash scripts.
 
+This is also *just an experiment* to learn more about the Go programming language. This project in no way competes with writing pure bash scripts as bootstrapping is something they're very good at.
+
+## Build
+
+To build the executable binary:
+
+```bash
+go build -o buskin
+```
+
 ## Usage
 
 ```bash
@@ -20,28 +30,28 @@ The following is an example:
 
 ```yaml
 github:
-  - username: foobar
-  - email: foo@bar.com
+  username: Integralist
+  email: mark.mcdx@gmail.com
 homebrew:
   - neovim
   - git
   - rbenv
-  - ruby-build 
-  - irssi 
-  - leiningen 
-  - reattach-to-user-namespace 
-  - siege 
-  - terminal-notifier 
-  - the_silver_searcher 
-  - tmux 
-  - tree 
-  - gpg 
-  - watch 
+  - ruby-build
+  - irssi
+  - leiningen
+  - reattach-to-user-namespace
+  - siege
+  - terminal-notifier
+  - the_silver_searcher
+  - tmux
+  - tree
+  - gpg
+  - watch
   - go
 shell:
-  - type: zsh
+  type: zsh
 dotfiles:
-  - path: https://github.com/integralist/dotfiles
+  path: https://github.com/integralist/dotfiles
 go:
   - golang.org/x/tools/cmd/goimports
   - github.com/svent/sift
