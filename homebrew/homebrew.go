@@ -35,6 +35,7 @@ func Setup() {
 	err = cmd.Run()
 	if err != nil {
 		fmt.Printf("Problem running Homebrew Ruby script: %s\n", err.Error())
+		fmt.Println("Check that Homebrew isn't already installed")
 	}
-	fmt.Printf("\n\n%q\n", out.String())
+	// fmt.Printf("\n\n%q\n", out.String())
 }
